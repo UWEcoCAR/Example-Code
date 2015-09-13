@@ -1,0 +1,174 @@
+#three {
+	background-color: #F2F1EF;
+	text-align: center;
+	padding: 0px;
+}
+
+#four {
+	background-color: #F2F1EF;
+	color:#2C3E50;
+}
+
+.col-md-12 {
+	font-size: 30pt;
+	padding-top: 25px;
+}
+
+.col-md-6 {
+	text-align: center;
+}
+
+.col-md-4 {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+#spin {
+	color: #2C3E50;
+}
+
+.modal-dialog, .modal-content, .modal-header{
+	background-color: #2C3E50;
+	color: #F2F1EF;
+}
+
+.close {
+	color: #F2F1EF;
+}
+
+/*Styles the area containing the puzzle*/
+#puzzlearea {
+	padding-top: 25px;
+	margin-left: auto;
+	margin-right: auto;
+	height: 320px;
+	width: 320px;
+	position: relative;
+	border-color: #BDC3C7;
+	border-width: 5px;
+	border-style: solid;
+	background-color: #ABB7B7;
+}
+
+/*Styles the square class, which is applied to each created square*/
+.square {
+	width: 77px;
+	height: 77px;
+	border-style: solid;
+	border-width: 4px;
+	border-color: #95A5A6;
+	border-radius: 10px;
+	color: #95A5A6;
+	margin: 0px;
+	padding: 0px;
+	font-size: 30pt;
+	text-align: center;
+	position: absolute;
+	display: inline-block;
+}
+
+.fa-stack>i, .fa-users, .fa-refresh {
+	color: #F2F1EF;
+}
+
+.left, .right {
+	padding-bottom: 25px;
+	padding-top: 25px;
+	background-color: #2C3E50;
+	height: 418px;
+	
+}
+
+.middle {
+	padding-top: 25px;
+	padding-bottom: 25px;
+	background-color: #86E2D5;
+	color: #2C3E50;
+}
+
+.mid-right {
+	background-color: #2C3E50;
+	color: #F2F1EF;
+}
+
+#icons {
+	padding-top: 50px;
+}
+
+
+i, #switch-type {
+	color: red;
+}
+/* Styles the entire body of the document */
+
+.container-fluid {
+	font-family: "Nunito", sans-serif;
+	font-size: 30pt;
+	color: #F2F1EF;
+	background-color: #16A085;
+	text-align: center;
+}
+
+#one {
+	padding-bottom: 50px;
+}
+
+#two {
+	background-color: #2C3E50;
+}
+
+#spin {
+	color: #2C3E50;
+}
+
+.list-group {
+	padding-top: 20px;
+	font-size: 25pt;
+}
+
+a.list-group-item {
+	color: #2C3E50;
+}
+
+#face {
+	padding-top: 20px;
+	margin: auto;
+}
+
+#footer {
+	font-size: 20pt;
+	color: #2C3E50;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+.center {
+	margin: auto;
+}
+
+.col-md-6 {
+	vertical-align: bottom;
+}
+
+i {
+	color: #F2F1EF;
+}
+
+.modal-content {
+	background-color: #2C3E50;
+}
+
+#image {
+	background-color: #2C3E50;
+	padding-bottom: 25px;
+	padding-top: 25px;
+}
+
+button {
+	padding: 25px;
+}
+
+#noPad {
+	padding: 0px;
+
+}

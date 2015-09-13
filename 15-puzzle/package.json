@@ -1,0 +1,6 @@
+{
+  "name"    : "puzzle game",
+  "version" : "0.1.0",
+  "author": "Austin M",
+  "main"    : "main.js"
+}
