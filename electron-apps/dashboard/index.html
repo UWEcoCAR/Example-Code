@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Demo</title>
+    <meta http-equiv="X-UA-COMPATIBLE" content="IE=EmulateIE9" >
+    <!-- Browserify compiled JS code bundle stored in same directory-->
+    <script type="text/javascript" src="dashboard.js"></script>
+    <!-- Stylesheet for entire page. Stored in same directory.-->
+    <link type="text/css" rel="stylesheet" href="style.css">
+    <!-- Stylesheet for particular element if necessary. Otherwise do not include. Stored in module folder-->
+    <link type="text/css" rel="stylesheet" href="modules/gauge.css">
+</head>
+
+<body>
+  <!-- Outer shell of page -->
+  <div id="outer" style="margin-top:40px; padding:10px">
+  	<!-- Contrains module elements -->
+      <div id="main" style="width:600px; height:200px; margin: 0px auto; ">
+      	<!-- Each div contains a separate element. Not each of these must be used or filled.
+      	Additional ones can also be added as necessary -->
+        <h3>Speed Gauge</h3>
+          <p> based off random setpoints</p>
+          <div id="speed-gauge"></div>
+
+          <h3>Battery Gauge</h3>
+            <p> starts at 100 and decreases </p>
+          <div id="battery-gauge"></div>
+
+      </div>
+  </div>
+
+</body>
+</html>
